@@ -8,16 +8,16 @@
      */
 
     // your database's name
-    define("DATABASE", "SAAhealthcare");
+    define("DATABASE", "saahealthcare");
 
     // your database's password
-    define("PASSWORD", "renyaofthedark");
+    define("PASSWORD", "mmdapo");
 
     // your database's server
     define("SERVER", "localhost");
 
     // your database's username
-    define("USERNAME", "root");
+    define("USERNAME", "jerryco");
 
     // email adress of admin
     define("ADMINEADDRESS", "jerrycoalaba@gmail.com");
