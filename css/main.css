@@ -1,0 +1,332 @@
+body
+{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+*
+{
+	box-sizing: border-box;
+}
+
+#errorf
+{
+  color: red;
+  font-family: Calibri;
+}
+
+#goodf
+{
+  color: green;
+  font-family: Calibri;
+}
+
+/* For smartphones*/
+@media only screen and (max-width : 600px) 
+{
+
+	.nav
+	{
+		display: none;
+	}
+	.contact
+	{
+		display: none;
+	}
+	header
+	{	
+		height: 75px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 1;
+		background-color: white;
+		border-bottom: solid 1px #E0E0E0;
+	}
+
+	#saalogo
+	{
+		margin: 8px 10px;
+		height: 60px;
+		width: auto;
+	}
+
+	.dropdown
+	{
+		display: inline-block;
+		position: relative;
+		left: 130px;
+		top: -10px;
+	}
+	.dr
+	{
+		padding: 0;
+		width: 30px;
+		height: 5px;
+		background-color: #0070C0;
+		margin: 4px 0;
+	}
+
+	#dr:hover .dr
+	{
+		background-color: gray;
+	}
+
+	.drcon a
+	{
+		text-decoration: none;
+		padding: 5px 10px;
+		display: block;
+		background-color: #0070C0;
+		color: white;
+		position: relative;
+		left: -40px;
+
+	}
+	.drcon a:hover
+	{
+		color: #0070C0;
+		background-color: white;
+	}
+	.drcon
+	{
+		display: block;
+		display: none;
+		position: absolute;
+		min-width: 110px;
+	}
+	.dropdown:hover .drcon
+	{
+		display: block;	
+	}
+
+	#content
+	{
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 65px;
+		width: 100%;
+		height: auto;
+		z-index: 0;
+	}
+
+	.footer
+	{
+		position: absolute;
+		top: 1500px;
+		left: 0;
+		width: 100%;
+		height: 80px;
+		background-color: black;
+		display:flex;
+	}
+}
+
+@media only screen and (min-width : 600px)
+{
+  body
+  {
+    /*background-image: url("../image/SAABG.png");*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+	.dropdown
+	{
+		display: none;
+	}
+
+	nav
+  {
+    height: 100%;
+    width: 10%;
+    background-color: #0070C0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 9%;
+  }
+
+  #navcon
+  {
+  	list-style: none;
+	margin-top: 40px;
+    padding: 0;
+    text-align: center;
+  }
+  #navcon a
+  {
+  	font-family: calibri;
+    color: white;
+    font-size: 100%;
+    display: block;
+    width: 100%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    text-decoration: none;
+  }
+
+  #navcon a:hover
+  {
+  	color: #0070C0;
+  	background-color: white;
+  }
+
+  
+
+  .schedule
+  {
+    border-radius: 10px;
+    margin: 40px auto;
+    width: 95%;
+    height: 100px;
+    background-color: #5AB44A;
+  }
+
+  .schedule h2, h3
+  {
+    padding-top: 10%;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size: 130%;
+    font-variant: small-caps;
+    line-height: 30%;
+  }
+  .schedule h3
+  {
+    padding-top: 0;
+    font-size: 90%;
+  }
+  header
+  {
+    position: fixed;
+    top: 0;
+    left: 10%;
+    width: 90%;
+    height: 100px;
+    background-color: white;
+    z-index: 1;
+    border-bottom: solid 1px #E0E0E0;
+  }
+  #saalogo
+  {
+  	position: relative;	
+    margin-left: 10px;
+    width: auto;
+    height: 80%;
+  }
+  .contact
+  {
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    top: 13%;
+    left: 65%;
+    background-color: #61ba4fe0;
+    border: solid 1px #E0E0E0;
+    box-shadow: 0 0 50px rgba(0,0,0,0.15);
+  }
+
+  .contact h5
+  {
+    margin: 0;
+    padding: 0;
+    font-size: 95%;
+  }
+
+  #content
+  {
+    background-color: #fffc;
+    margin: 0;
+  	width: 90%;
+  	position: absolute;
+  	top:100px;
+  	left: 10%;
+  	width: fill;
+  	height: 1500px;
+  }
+
+  .footer
+  {
+    height: 20%;
+    width: 90%;
+    background-color: black;
+    position: absolute;
+    top: 1500px;
+    left: 10%;
+  }
+
+  #errorf, #goodf
+  {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width : 1200px) and (min-width: 600px)
+{
+  .nav
+  {
+    display: none;
+  }
+
+    .dropdown
+  {
+    display: inline-block;
+    position: relative;
+    left: -20%;
+    top: 10px;
+  }
+  .dr
+  {
+    padding: 0;
+    width: 50px;
+    height: 10px;
+    background-color: #0070C0;
+    margin: 4px 0;
+  }
+
+  #dr:hover .dr
+  {
+    background-color: gray;
+  }
+
+  .drcon a
+  {
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    background-color: #0070C0;
+    color: white;
+    position: relative;
+    left: -40px;
+
+  }
+  .drcon a:hover
+  {
+    color: #0070C0;
+    background-color: white;
+  }
+  .drcon
+  {
+    display: block;
+    display: none;
+    position: absolute;
+    min-width: 110px;
+  }
+  .dropdown:hover .drcon
+  {
+    display: block; 
+  }
+  .contact
+  {
+    position: relative;
+    top: 10%;
+    left: 40%;
+  }
+  footer
+  {
+    width: 100%;
+  }
+}

@@ -1,0 +1,29 @@
+
+/*css rules for smartphone*/
+@media only screen and (max-width : 600px) 
+{
+	#loginform
+	{
+		margin-top: 5%;
+		padding-left: 5px;
+		width: 60%;
+		height: auto;
+		border: solid 1px black;
+	}
+}
+
+
+/* css rules for desktops */
+@media only screen and (min-width : 600px)
+{
+	#loginform
+	{
+		margin-top: 5%;
+		padding-left: 5px;
+		width: 27%;
+		height: auto;
+		border: solid 1px black;
+		padding-bottom: 20px;
+	}
+}
+

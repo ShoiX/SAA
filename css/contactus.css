@@ -1,0 +1,143 @@
+
+/*css rules for smartphone*/
+@media only screen and (max-width : 600px) 
+{
+	#map
+	{
+		width: 90%;
+		margin-left: 17px;
+	}
+	#address
+	{
+		text-align: center;
+		margin-top: 4px;
+		font-size: ;
+		font-family: ;
+	}
+	#visit
+	{
+		margin-top: 40px;
+		margin-bottom: 1%;
+		padding-bottom: 0;
+	}
+}
+
+
+/* css rules for desktops */
+@media only screen and (min-width : 600px)
+{
+	#map
+	{
+		width: 900px;
+		height: 450px;
+		display: inline-block;
+		margin-left: 5%;
+	}
+	
+	#address
+	{
+		
+		margin-top: 4px;
+		margin-left: 5%;
+		font-size: 17px;
+		font-family: Centaur;
+	}
+	#fpage
+	{
+		
+		margin-top: 4px;
+		margin-left: 5%;
+		box-sizing: border-box;
+		display: inlne-block;
+		width: 11%;
+		border-radius: 3px;
+		border: 1.5px solid blue;
+		font-size: 20px;
+		font-family: Centaur;
+	}
+	#num
+	{
+		margin-top: 20px;
+		margin-bottom: 1%;
+		margin-left: 5%;
+		padding-bottom: 0;
+		font-size: 20px;
+		font-family: Centaur;
+	}
+	#visit
+	{
+		margin-top: 20px;
+		margin-bottom: 1%;
+		margin-left: 2%;
+		padding-bottom: 0;
+		font-size: 20px;
+		font-family: Centaur;
+	}
+	#fb
+	{
+		margin-top: 20px;
+		margin-bottom: 1%;
+		margin-left: 2%;
+		padding-bottom: 0;
+		font-size: 20px;
+		font-family: Centaur;
+	}
+	#call
+	{
+		margin-top: 20px;
+		margin-bottom: 1%;
+		margin-left: 2%;
+		padding-bottom: 0;
+		font-size: 20px;
+		font-family: Centaur;
+	}
+
+	#form
+	{
+		display: inline-block;
+		margin-left: 5%;
+		width: 74%;
+		padding: 12px 20px;
+		border: 3px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+		font-size: 20px;
+		font-family: centaur;
+	}
+	
+	<style>
+a:link {
+    color: green;
+    background-color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: solid blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+</style> 
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+}	

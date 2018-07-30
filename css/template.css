@@ -1,0 +1,13 @@
+
+/*css rules for smartphone*/
+@media only screen and (max-width : 600px) 
+{
+
+}
+
+
+/* css rules for desktops */
+@media only screen and (min-width : 600px)
+{
+
+}

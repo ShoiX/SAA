@@ -1,0 +1,7 @@
+hashing algorithm used is SHA256
+db
+username: admin
+password: saahealthcarepasig
+gmail
+webSAAhealthcare@gmail.com
+saahealthcarepasig
